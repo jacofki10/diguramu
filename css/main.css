@@ -170,7 +170,7 @@ body {
    font-weight: bold;
  }
  
- .container #q_text {
+ .container #question {
    margin: 40px 0;
    font-size: 24px;
    font-weight: bold;
@@ -708,7 +708,7 @@ body {
      padding: 0 0 6% 0;
    }
  
-   .container #q_text {
+   .container #question {
      margin: 20px 0;
      font-size: 20px;
    }
@@ -1041,3 +1041,6 @@ body {
  #data_area {
    display: none;
  }
+ #total_no{
+  display: none;
+}

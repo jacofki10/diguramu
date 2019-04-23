@@ -291,7 +291,7 @@ switch ($_POST["score_level"] ) {
 				<p><?php echo $description; ?></p>
 			</div>
 			<div class="btn_area">
-				<div class="btn"><a href="/index.html">もう一度診断する</a></div>
+				<div class="btn"><a href="/index.php">もう一度診断する</a></div>
 			</div>
 		</div>
 	</div>

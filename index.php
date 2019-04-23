@@ -13,21 +13,21 @@
 <title>SURVEY</title>
 <!-- Custom styles for this template -->
 <link href="css/main.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 <body >
 	<header>
-		<div id="logo"><a href="index.html"></a></div>
+		<div id="logo"><a href="index.php"></a></div>
 	</header>
    <div class="container">
 		<form name="ResultForm" method="post" action="result.php">
 			<div id="question_area">
 				<div id="q_no"></div>
 				<div id="total_no"></div>
+				<div id="question"></div>
 				<div id="q_btn">
-					<div id="q_answer1" class="btn left_b" ><a></a></div>
+					<div id="q_answer1" class="btn left_b"><a></a></div>
 					<div class="or">or</div>
-					<div id="q_answer2" class="btn right_b" ><a></a></div>
+					<div id="q_answer2" class="btn right_b"><a></a></div>
 				</div>
 			</div>
 		</form>
@@ -43,6 +43,7 @@
 	<a href=""></a>
 	<p>Copyright (C) SkyLink all rights reserved.</p>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
